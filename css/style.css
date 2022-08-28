@@ -1,0 +1,382 @@
+:root {
+    /* Text colors */
+    --main-txt-cl: #212121;
+    --accent-txt-cl: #2196F3;
+    
+    /* Fonts */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    
+    /* Background colors */
+    --main-bg-cl: #F5F5F5;
+    --accent-bg-cl: #2196F3; 
+    }
+    
+    
+    .page {
+       font-family: var(--main-font);
+       color: var(--main-txt-cl);
+        /* text-align: center; */
+        font-size: 14px;
+        line-height: calc(16.41 / 14);
+        letter-spacing: 0.02em;
+    }
+    
+    /* reset */
+    
+    .list {
+        list-style: none;
+        color: currentColor;
+        text-decoration: none;
+    }
+    
+    .mail, .tel {
+        list-style: none;
+        color: currentColor;
+        text-decoration: none;
+    }
+    
+    /**
+      |============================
+      | Header
+      |============================
+    */
+    
+    
+    .link {
+    width: 145px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px; 
+    line-height: 1.19;
+    text-decoration: none;
+    
+    }
+    
+    
+    .header-link {
+        font-family: var(--main-font); 
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--main-txt-cl);
+        text-decoration: none;
+    }
+    
+    .web {
+        color: #2196F3;
+    }
+    
+    .studio {
+        color: #000000;
+    }
+    
+    .mail {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+         color: #757575;
+    }
+    
+    .tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+         color: #757575;
+    }
+    
+    /**
+      |============================
+      |Hover
+      |============================
+    */
+    
+
+    
+    .header-link:hover, .header-link:focus {
+        color: var(--accent-txt-cl);
+    }
+    
+    
+    .mail:hover, .mail:focus  {
+        color: var(--accent-txt-cl);
+    }
+    
+    .tel:hover, .tel:focus  {
+        color: var(--accent-txt-cl);
+    }
+    
+    
+    /**
+      |============================
+      | Studio
+      |============================
+    */
+    
+    /**
+      |============================
+      | Header
+      |============================
+    */
+    
+    
+    .design {
+        font-family: Roboto;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+        text-transform: uppercase;
+        color:  #FFFFFF;;
+    }
+
+    .current {
+        color: var(--accent-txt-cl);
+    }
+    
+    .plus {
+        /* position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px; */
+    
+        background-color: #2F303A;
+    }
+    
+    .main .btn {
+    
+        /* position: absolute;
+        width: 152px;
+        height: 30px;
+        left: 724px;
+        top: 440px; */
+    
+       font-family: var(--main-font); 
+       font-weight: 700;
+       font-size: 16px;
+       line-height: 1.87;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       letter-spacing: 0.06em;
+       color: #FFFFFF;
+       background-color: var(--accent-bg-cl);
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+       border-radius: 4px;
+       cursor: pointer;
+    }
+    
+    .button:active, .button:focus {
+        color: #2196F3;
+    }  
+    
+    .opportunity {
+        font-family: var(--main-font);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        /* color: var(--main-txt-cl); */
+    }
+    
+    .paragraf {
+        font-family: var(--main-font);
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    
+    .headertwo {
+         font-family: var(--main-font);
+         font-weight: 700;
+         font-size: 36px;
+         line-height: 1.16;
+         text-align: center;
+         letter-spacing: 0.03em; 
+    }
+    
+    .headerthree {
+        font-family: var(--main-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    
+    .position {
+         font-family: var(--main-font);
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 1.18;
+         text-align: center;
+         letter-spacing: 0.03em;
+         color: #757575;
+         text-align: center;
+    }
+    
+    .team-list {
+        list-style: none;
+        color: currentColor;
+        text-decoration: none;
+    }
+    
+    
+    /**
+      |============================
+      | Footer
+      |============================
+    */ 
+    
+    .ftr {
+        background-color: #2F303A;
+    }
+    
+    address {
+        font-style: normal;
+        text-decoration: none;
+    }
+    
+    .list-item .addr-mail {
+        list-style: none;
+        color: currentColor;
+        text-decoration: none;
+    }
+    
+    .studio-ftr {
+    color: #FFFFFF;
+    }
+    
+    
+    .list-item:hover, .list-item:focus {
+        color: #2196F3;
+    }
+    
+    .addr-item:hover, .addr-item:focus {
+        color: #2196F3;
+    }
+    
+    .addr-mail:hover, .addr-mail:focus {
+        color: #2196F3;
+    }
+    
+    .ftr, .ftrlogo {
+        font-family: var(--secondary-font);
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+    }
+    
+    .list-item {
+        font-family: var(--main-font);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color:rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+    }
+    
+    .addr-item {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+    
+    
+    
+    .addr-mail {
+         font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+    } 
+    
+    
+    /**
+      |============================
+      | Portfolio
+      |============================
+    */
+    
+    
+    .button .list-btn {
+        cursor: pointer;
+        border-radius: 4px; 
+        list-style: none;
+        color: currentColor;
+        text-decoration: none;
+        /* position: absolute; */
+    
+        width: 125px;
+        height: 38px;
+        left: 593px;
+        top: 174px;
+        
+    }
+
+    
+    
+    .text-btn {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-txt-cl);
+        cursor:pointer;
+    }
+    
+    
+    button:hover, button:focus {
+        background-color: #2196F3;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        color: #FFFFFF;
+    }
+    
+    /* reset */
+    
+    .portfolio {
+        list-style: none;
+        color: currentColor;
+        text-decoration: none;
+    }
+    
+    .prt-list {
+        list-style: none;
+        color: currentColor;
+        text-decoration: none;
+    }
+    
+    
+    .port-hdr {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        color: var(--main-txt-cl);
+    }
+    
+    .port-pgf {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
