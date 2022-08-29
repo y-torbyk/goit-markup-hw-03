@@ -123,13 +123,14 @@
       |============================
     */
     
-    .block-container {
-        padding-top: 200px;
-        height: 600;
+    .container .block-container {
+       outline: 1px solid red;
 
     }
 
-
+     .design {
+        margin-bottom: 20px;
+     }
 
 
     /**
