@@ -1,11 +1,8 @@
-
-*, 
+/* *, 
 *::before,
 *::after {
-    box-sizing: inherit;
-}
-
-
+    box-sizing: border-box;
+} */
 
 
 
@@ -126,6 +123,15 @@
       |============================
     */
     
+    .block-container {
+        padding-top: 200px;
+        height: 600;
+
+    }
+
+
+
+
     /**
       |============================
       | Header
