@@ -43,6 +43,7 @@
   color: currentColor;
   text-decoration: none;
   margin: 0;
+  margin-bottom: 50px;
   padding: 0;
   cursor: pointer;
    border-radius: 4px;
@@ -255,8 +256,8 @@ p {
 }
 
 
-.btn:hover,
-.btn:focus {
+.main .btn:hover,
+.main .btn:focus {
   background: #188CE8; 
 }
 
@@ -297,6 +298,8 @@ p {
 .button:focus {
   color: #2196f3;
 }
+
+
 
 .work-about {
   padding-top: 94px; 
@@ -387,9 +390,10 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-least {
-  margin: 0px;
+.team-list:last-child {
+  margin-right: 0px;
 }
+
 
 .card {
   padding-top: 30px;
@@ -471,6 +475,7 @@ address {
 .team-least {
   display: flex;
   justify-content: center;
+  margin: 0;
   margin-left: 0;
   padding-left: 0;
 }
@@ -543,9 +548,6 @@ address {
     border: none;
 }
 
-.section-btn {
-  margin-bottom: 50px;
-}
 
 .footer-list {
   flex-direction: column;
@@ -580,6 +582,8 @@ button:focus {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
 }
+
+
 
 .portfolio-picture {
   /* width: 1200px; */
@@ -624,6 +628,7 @@ button:focus {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--main-txt-cl);
+  margin-bottom: 10px;
 }
 
 .port-pgf {
