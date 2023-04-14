@@ -1,7 +1,14 @@
 
-* {
+html {
   box-sizing: border-box;
 }
+
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
 
 body {
   background-color: var(--color-main);
@@ -23,7 +30,6 @@ body {
   --color-pgf: #434455;
   --border-button: #e7e9fc;
 }
-
 
 h1,
 h2,
