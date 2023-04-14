@@ -70,6 +70,21 @@ ul {
 
 .header-div {
   display: flex;
+  align-items: center;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -81,6 +96,7 @@ ul {
   color: var(--accent-txt-cl);
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .studio {
@@ -107,6 +123,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
+  padding: 24px 0;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact {
