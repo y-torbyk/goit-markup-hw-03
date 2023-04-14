@@ -9,6 +9,9 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+}
 
 body {
   background-color: var(--color-main);
