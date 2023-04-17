@@ -227,6 +227,9 @@ ul {
   gap: 24px;
 }
 
+.list3li {
+  width: calc((100% - 48px) / 3);
+}
 
 .team {
   background: var(--background-team);
