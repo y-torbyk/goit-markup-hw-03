@@ -284,13 +284,21 @@ ul {
 
 .container-footer {
   background: var(--main-txt-cl);
+
+  padding: 100px 0;
 }
 .web {
 }
 
+
 .studioft {
   color: var(--footer-second);
   text-transform: uppercase;
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 16px; 
 }
 
 .footer-p {
@@ -298,6 +306,7 @@ ul {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /**
