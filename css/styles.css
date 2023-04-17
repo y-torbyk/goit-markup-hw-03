@@ -233,7 +233,15 @@ ul {
 
 .team {
   background: var(--background-team);
+  padding: 120px 0;
+
 }
+
+.list4 {
+  display: flex;
+  gap: 24px;
+}
+
 .texththree {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -258,7 +266,19 @@ ul {
 
 .li-class {
   background-color: var(--color-main);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+
+.name {
+  padding: 32px 16px;
+}
+
+.texththree {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 
 .container-footer {
   background: var(--main-txt-cl);
