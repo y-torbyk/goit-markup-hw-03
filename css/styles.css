@@ -75,6 +75,7 @@ ul {
 .container {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -136,6 +137,7 @@ ul {
 
 .main-bunner {
   background-color: var(--main-txt-cl);
+  padding: 188px 0;
 }
 
 .design-h {
@@ -147,6 +149,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-main);
+  max-width: 496px;
 }
 
 .button-textn {
@@ -156,9 +159,15 @@ ul {
   line-height: 1.5;
 
   letter-spacing: 0.04em;
-  background: var(--accent-txt-cl);
+  background-color: var(--accent-txt-cl);
   color: var(--color-main);
   cursor: pointer;
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button-textn:hover,
