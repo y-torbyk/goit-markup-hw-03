@@ -203,7 +203,9 @@ ul {
 }
 
 .doing {
+  padding-bottom: 120px;
 }
+
 .texthtwo {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -216,7 +218,16 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-txt-cl);
+
+  margin-bottom: 72px;
 }
+
+.list3 {
+  display: flex;
+  gap: 24px;
+}
+
+
 .team {
   background: var(--background-team);
 }
