@@ -178,6 +178,7 @@ ul {
 }
 
 .strategy {
+  padding: 120px 0;
 }
 
 .opportunity {
@@ -272,6 +273,7 @@ ul {
 .listbtn {
 }
 .list {
+  display: flex;
 }
 .list-btn {
 }
