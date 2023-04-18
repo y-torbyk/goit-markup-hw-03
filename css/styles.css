@@ -323,7 +323,7 @@ ul {
 }
 
 .element {
-  width: calc((100% - 72px);
+  width: calc((100% - 72px) / 4);
 }
 
 
