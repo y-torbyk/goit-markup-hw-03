@@ -280,6 +280,11 @@ ul {
   margin-bottom: 8px;
 }
 
+.element {
+  width: calc((100% - 72px) / 4);
+}
+
+
 .container-footer {
   background: var(--main-txt-cl);
 
@@ -311,20 +316,28 @@ ul {
     */
 
 .bunners {
+  padding: 96px 0 120px;
 }
 .listbtn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px
 }
+
+.list-btn {
+  padding: 12px 24px;
+  border: 1px solid var(--border-button);
+  border-radius: 4px;
+}
+
 .list2 {
   display: flex;
   gap: 24px;
 }
 
-.element {
-  width: calc((100% - 72px) / 4);
-}
 
-.list-btn {
-}
+
 .text-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -353,16 +366,33 @@ ul {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: 1px solid transparent;
+  border: 1px solid;
 }
 
 .portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px; 
 }
+
 .cart {
   background: var(--color-main);
   /* CORNFLOWER */
 
   border: 1px solid var(--border-button);
+  width: calc((100% - 48px)/3);
+
 }
+
+.portfolio-name {
+  padding: 32px 16px;
+  border: 1px solid var(--border-button);
+  border-top: none;
+}
+
+
 .prt-list {
 }
 .link {
@@ -376,6 +406,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
+
+  margin-bottom: 8px;
 }
 
 .port-pgf {
