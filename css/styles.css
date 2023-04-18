@@ -384,9 +384,10 @@ ul {
 .cart {
   background: var(--color-main);
   /* CORNFLOWER */
-
   border: 1px solid var(--border-button);
   width: calc(100% - 48px) / 3;
+  max-width: 450px;
+  margin: 0;
 }
 
 .portfolio-name {
