@@ -229,7 +229,7 @@ ul {
   gap: 24px;
 }
 
-.list3li {
+.list-li {
   width: calc((100% - 48px) / 3);
 }
 
