@@ -381,6 +381,10 @@ ul {
   row-gap: 48px;
 }
 
+.test {
+  width: calc(100% - 48px) / 3
+}
+
 .cart {
   background: var(--color-main);
   /* CORNFLOWER */
