@@ -236,7 +236,6 @@ ul {
 .team {
   background: var(--background-team);
   padding: 120px 0;
-
 }
 
 .list4 {
@@ -281,13 +280,11 @@ ul {
   margin-bottom: 8px;
 }
 
-
 .container-footer {
   background: var(--main-txt-cl);
 
   padding: 100px 0;
 }
-
 
 .studioft {
   color: var(--footer-second);
@@ -296,7 +293,7 @@ ul {
 
 .logo {
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
 .footer-p {
@@ -325,7 +322,6 @@ ul {
 .element {
   width: calc((100% - 72px) / 4);
 }
-
 
 .list-btn {
 }
