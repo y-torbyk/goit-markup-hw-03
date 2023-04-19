@@ -392,7 +392,7 @@ ul {
   background: var(--color-main);
   /* CORNFLOWER */
   border: 1px solid var(--border-button);
-  calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-name {
