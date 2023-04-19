@@ -48,33 +48,14 @@ img {
   max-width: 100%;
   height: auto;
 }
-.link {
-  color: currentColor;
-  text-decoration: none;
-}
+
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-button {
-  font-family: inherit;
-  color: currentColor;
-  cursor: pointer;
-}
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
+
 
 /**
       |============================
@@ -412,7 +393,7 @@ ul {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc(100% - 48px) / 3;
+  
   margin: 0, auto;
   margin-left: auto;
   margin-right: auto;
@@ -422,6 +403,7 @@ ul {
   background: var(--color-main);
   /* CORNFLOWER */
   border: 1px solid var(--border-button);
+  width: calc(100% - 48px) / 3;
 }
 
 .portfolio-name {
@@ -429,6 +411,7 @@ ul {
   border: 1px solid var(--border-button);
   border-top: none;
 }
+
 
 .prt-list {
 }
