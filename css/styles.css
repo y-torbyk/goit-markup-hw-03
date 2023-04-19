@@ -33,8 +33,6 @@ body {
   --border-button: #e7e9fc;
 }
 
-
-
 /* reset start */
 h1,
 h2,
@@ -417,15 +415,13 @@ ul {
   width: calc(100% - 48px) / 3;
   margin: 0, auto;
   margin-left: auto;
-  padding-right: auto;
+  margin-right: auto;
 }
 
 .cart {
   background: var(--color-main);
   /* CORNFLOWER */
   border: 1px solid var(--border-button);
-
-
 }
 
 .portfolio-name {
