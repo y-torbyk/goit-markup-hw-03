@@ -194,6 +194,8 @@ ul {
   color: var(--main-txt-cl);
 
   margin-bottom: 8px;
+
+  width: calc((100% - 72px) / 4);
 }
 
 .textp {
@@ -286,6 +288,7 @@ ul {
 
 .element {
   width: calc((100% - 72px) / 4);
+  
 }
 
 .container-footer {
