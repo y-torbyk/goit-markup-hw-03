@@ -152,6 +152,8 @@ ul {
   color: var(--color-main);
   width: 696px;
   padding: 10;
+
+  position: absolute;
 }
 
 .button-textn {
