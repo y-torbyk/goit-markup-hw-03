@@ -398,9 +398,25 @@ ul {
 }
 
 .portfolio-name {
-  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 16px;
+  gap: 8px;
+  
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  left: 0px;
+  top: 332px;
+  
+
+
+
+  /* padding: 32px 16px;
   border: 1px solid var(--border-button);
-  border-top: none;
+  border-top: none; */
 }
 
 .prt-list {
