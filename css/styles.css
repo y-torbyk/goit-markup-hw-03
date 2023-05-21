@@ -79,6 +79,7 @@ ul {
 
 .header-class {
   border-bottom: 1px solid var(--border-button);
+  display: grid;
 }
 
 .header-div {
