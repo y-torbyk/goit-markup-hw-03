@@ -150,8 +150,8 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-main);
-  width: 696px;
-  padding: 10;
+  max-width: 496px
+  
 
   position: absolute;
 }
