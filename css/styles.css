@@ -199,6 +199,13 @@ ul {
 
 .strategy {
   padding: 120px 0;
+  
+}
+
+.visually-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 
 .opportunity {
