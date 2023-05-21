@@ -44,6 +44,14 @@ p {
   margin: 0;
 }
 
+
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /**
       |============================
       |Base styles
@@ -55,17 +63,7 @@ p {
   list-style-type: none;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 
 /**
