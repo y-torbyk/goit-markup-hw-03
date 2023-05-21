@@ -150,7 +150,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-main);
-  max-width: 496px;
+  width: 696px;
 }
 
 .button-textn {
@@ -192,7 +192,6 @@ ul {
   color: var(--main-txt-cl);
 
   margin-bottom: 8px;
-
   width: calc((100% - 48px) / 3);
 }
 
