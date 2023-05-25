@@ -75,12 +75,7 @@ ul {
 
 .header-class {
   border-bottom: 1px solid var(--border-button);
-  display: grid;
 
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
 }
 
 .header-div {
@@ -91,7 +86,7 @@ ul {
 .container {
   width: 1158px;
   padding: 0 15px;
-
+  margin: 0 auto;
 
 }
 
